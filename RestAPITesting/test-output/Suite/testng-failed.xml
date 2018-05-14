@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="atu.testng.reports.listeners.ATUReportsListener"/>
+    <listener class-name="atu.testng.reports.listeners.ConfigurationListener"/>
+    <listener class-name="atu.testng.reports.listeners.MethodListener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="ENVURL" value="${env}"/>
+    <classes>
+      <class name="Atu.TestNGListeners">
+        <methods>
+          <include name="VerifyLogin_failure"/>
+          <include name="VerifySkipping"/>
+          <include name="testNewLogsForContinuedStepsAfterFailed"/>
+          <include name="dodo" invocation-numbers="1"/>
+          <include name="testNewLogs"/>
+          <include name="startBrowser"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Atu.TestNGListeners -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

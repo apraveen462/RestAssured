@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="ENVURL" value="${env}" />
+    <classes>
+      
+       <class name="com.apitesting.TestAPI.GETTEST"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <listeners>
+        <listener class-name="atu.testng.reports.listeners.ATUReportsListener"></listener>
+        <listener class-name="atu.testng.reports.listeners.ConfigurationListener"></listener>
+        <listener class-name="atu.testng.reports.listeners.MethodListener"></listener>
+    </listeners>
+</suite> <!-- Suite -->
