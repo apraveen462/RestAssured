@@ -133,7 +133,7 @@ If you want to try out REST Assured for yourself, I have created and published a
 
 ### GET Methods:
 
-![my2](https://user-images.githubusercontent.com/38342199/40051958-2f595b84-585a-11e8-9e6b-e1a557f2c69b.png)
+![my2 2](https://user-images.githubusercontent.com/38342199/40053337-8295a3f8-585e-11e8-8118-d40890ac57d3.png)
 
 ![my3](https://user-images.githubusercontent.com/38342199/40051967-36792d72-585a-11e8-8ada-666c1dc1db79.png)
 
