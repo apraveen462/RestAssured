@@ -127,7 +127,7 @@ If you want to learn more about REST Assured, take a look at the  [REST Assured 
 
 If you want to try out REST Assured for yourself, I have created and published a  [REST Assured workshop](https://github.com/basdijkstra/workshops/tree/master/rest-assured), including slides, examples, exercises and their answers.
 
-### Example Test Cases :
+### Sample Test Cases :
 
 ![my1](https://user-images.githubusercontent.com/38342199/40051951-28bb9350-585a-11e8-8e37-21c5e7aab6eb.png)
 
